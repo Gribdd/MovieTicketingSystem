@@ -1,67 +1,89 @@
-# Movie Ticketing System
+# 🎬 WinWin Cinema Desktop
+A desktop movie ticketing application built using **.NET MAUI**.  
+This project allows customers to book movie tickets, choose seats, and make payments, while administrators can create malls, assign cinemas, and manage users.  
 
-Movie Ticketing System is a C# .NET MAUI multi-platform application designed for use by companies in the movie business.
+Since database systems (DBMS) and APIs were not yet covered at the time of development, the project uses **JSON serialization** for data storage. 
 
-## Installation
+![WinWin Cinema Desktop](https://i.postimg.cc/HLshNLgh/Software-Development-2-1.png)
 
-To install and run the Movie Ticketing System on your local development environment, follow these steps:
+---
 
-### Prerequisites
+## 🌟 Highlights
+- 🎟️ Ticket booking with seat selection  
+- 🏢 Admin rights for mall and cinema management  
+- 👥 Customer account creation for booking history  
+- 💳 Payment simulation  
+- 📦 Local JSON serialization for data persistence  
 
-Before you begin, make sure you have the following prerequisites installed on your machine:
+---
+## 💻 Tech Stack
 
-1. Visual Studio (Windows) or Visual Studio for Mac (macOS): You'll need an integrated development environment (IDE) to work with .NET MAUI. Download and install Visual Studio or Visual Studio for Mac from the official website.
+| Layer           | Technology       |
+|-----------------|------------------|
+| Language        | C#               |
+| Framework       | .NET MAUI        |
+| Storage         | JSON Serialization |
+| IDE             | Visual Studio 2022 |
 
-2. .NET MAUI Workload: Ensure that you have the .NET MAUI workload installed in your Visual Studio. You can install it during the Visual Studio installation process or later through the Visual Studio Installer.
+## ⬇️ Installation
+You’ll need **Git**, and **Visual Studio 2022** with the **.NET desktop development workload** installed.  
 
-3. .NET SDK: Make sure you have the .NET SDK installed. You can download it from the official .NET website.
+### Git  
+- Download and install Git from the official website: [Git Downloads](https://git-scm.com/downloads)  
+- Verify the installation:  
+  ```bash
+  git --version
+  ```
+### Visual Studio 2022 IDE Download
+Download Visual Studio 2022 from the official website: Visual Studio Downloads.
 
-### Clone the Repository
+### .NET SDK & MAUI Workload  
+- Download and install the .NET SDK (7.0 or later) from the official website: [.NET Downloads](https://dotnet.microsoft.com/en-us/download)  
+- Install the MAUI workload:  
+  ```bash
+  dotnet workload install maui
+  ```
+- Verify the installation:  
+  ```bash
+  dotnet --version
+  ```
+  
+## ⚡ Running the Project  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Gribdd/MovieTicketingSystem.git
+   cd MovieTicketingSystem
+   ```
+  
+2. Restore and build the project:
+   ```bash
+   dotnet restore
+   dotnet build
+   ```
+3. Run the project:
+   ```bash
+   dotnet run
+   ```
 
-1. Open a terminal or command prompt.
+## 🤝 Contributing  
 
-2. Use git to clone the Movie Ticketing System repository to your local machine:
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the MIT License.  
 
 
-### Open the Project in Visual Studio
 
-1. Launch Visual Studio.
 
-2. Open the "movie-ticketing-system" solution file located in the cloned repository folder.
 
-### Build and Run the Application
 
-1. Ensure that your preferred target platform (Android, iOS, Windows) is selected in the IDE.
 
-2. Click the "Build" button in Visual Studio to build the application.
 
-```bash
-git clone https://github.com/your-username/movie-ticketing-system.git
-```
 
-3. Once the build process is complete, click the "Run" button to launch the Movie Ticketing System on your selected platform.
 
-### Testing
 
-Before deploying the application to production, thoroughly test it on various devices and platforms to ensure it functions as expected.
 
-## Contributing
-
-We welcome contributions to the Movie Ticketing System. If you'd like to contribute, please follow these guidelines:
-
-1. Fork the repository.
-
-2. Create a feature branch for your changes:
-```bash
-git checkout -b feature/your-feature-name
-```
-3. Make your changes and commit them with descriptive messages.
-
-4. Push your changes to your forked repository.
-
-5. Create a pull request to merge your changes into the main repository.
-
-## License
-
-Movie Ticketing System is licensed under the MIT License.
-
+   
